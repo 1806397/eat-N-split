@@ -3,6 +3,7 @@ import Button from "./Button";
 function FormSplitBill({ selectedFriend, onSplitBill }) {
   const [bill, setBill] = useState("");
   const [paidByUser, setPaidByUser] = useState("");
+  //just some test
   const paidByFriend = bill - paidByUser;
   const [whoIsPaying, setWhoIsPaying] = useState("user");
   function handleSubmit(e) {
